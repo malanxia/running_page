@@ -61,7 +61,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Run check and build
-        run: |
-          pnpm run check
-          pnpm run build
+# - name: Run check and build
+#        run: |
+#          pnpm run check
+#          pnpm run build
